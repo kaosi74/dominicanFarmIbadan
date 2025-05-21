@@ -78,7 +78,7 @@
   --bs-highlight-bg: #fff4cc;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -92,6 +92,9 @@ body{
   :root {
     scroll-behavior: smooth;
   }
+}
+h1 {
+  text-shadow: #000;
 }
 
 h4,
@@ -10961,8 +10964,8 @@ section,
   }
 }
 
-.sect{
-  background-color: #F0FFEA;
+.sect {
+  background-color: #f0ffea;
 }
 .page-section h2.section-heading,
 .page-section .section-heading.h2 {
@@ -11108,13 +11111,13 @@ section,
   }
 }
 
-header.masthead{
+header.masthead {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
 
-.heroImg{
+.heroImg {
   position: absolute;
   padding-top: 2rem;
   top: 0;
@@ -11125,7 +11128,7 @@ header.masthead{
   z-index: 1;
   background-blend-mode: darken;
 }
-.contCont{
+.contCont {
   position: relative;
   z-index: 2;
 }
@@ -11149,29 +11152,31 @@ header.masthead .masthead-subheading {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-align: center;
   color: whitesmoke;
-  text-align: center;  
+  text-align: center;
+  text-shadow: black 0px 0px 10px;
 }
 
-.masthead-subheading2{
+.masthead-subheading2 {
   font-size: 1em;
   color: black;
   padding-block: 1rem;
   border-radius: 1.3rem;
   padding-inline: 1rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 2em;
   font-weight: 600;
   line-height: 1.3rem;
 }
 
-.rowHome{
+.rowHome {
   background-color: lightgreen;
   box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-  header.masthead{
+  header.masthead {
     height: 90vh;
   }
 }
@@ -11388,8 +11393,8 @@ header.masthead .masthead-subheading {
   margin-bottom: 0.5em;
 }
 
-.icon div{
-  background-color: #CCE6D9;
+.icon div {
+  background-color: #cce6d9;
   width: 6em;
   height: 6em;
   display: flex;
@@ -11397,12 +11402,12 @@ header.masthead .masthead-subheading {
   border-radius: 50%;
 }
 
-.icon img{
-width: 5em;
-height: 5em;
-border-radius: 50px;
-justify-self: center;
-align-self: center;
+.icon img {
+  width: 5em;
+  height: 5em;
+  border-radius: 50px;
+  justify-self: center;
+  align-self: center;
 }
 
 .featured-services h3 {
@@ -11437,8 +11442,8 @@ align-self: center;
 /*  */
 
 /* Testimonial */
-.contact{
-  background-color: #FEFFFF;
+.contact {
+  background-color: #feffff;
 }
 .contact .info-item {
   margin-bottom: 40px;
@@ -11491,7 +11496,7 @@ align-self: center;
 }
 
 #sustainability {
-  background: #FBFFEE;
+  background: #fbffee;
   color: black;
 }
 
